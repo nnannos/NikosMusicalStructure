@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+
+
+
+    <LinearLayout
+        android:background="@color/category_artists"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homebutton"
+            style="@style/ArtistsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"/>
+
+        <Button
+            android:id="@+id/songsbutton"
+            style="@style/ArtistsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_songs"/>
+
+        <Button
+            android:id="@+id/albumsbutton"
+            style="@style/ArtistsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_albums"/>
+
+        <Button
+            android:id="@+id/playlistsbutton"
+            style="@style/ArtistsButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_playlists"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ArtistsComment"
+        style="@style/CommentStyle"
+        android:text="@string/artists_screen"/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+
+
+
+    <!-- Style for music structure buttons -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <!--Style for comments-->
+    <style name="CommentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--Style for labels in activities-->
+    <style name="LabelStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/label_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+<!--Style for songs button menu-->
+    <style name="SongsButtonStyle">
+       <item name="android:background">@color/category_songs</item>
+       <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!--Style for artists button menu-->
+    <style name="ArtistsButtonStyle">
+        <item name="android:background">@color/category_artists</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Style for album button menu-->
+    <style name="AlbumsButtonStyle">
+        <item name="android:background">@color/category_albums</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Style for playlists button menu-->
+    <style name="PlaylistsButtonStyle">
+        <item name="android:background">@color/category_playlists</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

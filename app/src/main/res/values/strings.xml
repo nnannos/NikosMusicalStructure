@@ -1,0 +1,57 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">NikosMusicalStructure</string>
+
+    <!-- Name for Home screen [CHAR LIMIT=4] -->
+    <string name="home">Home</string>
+
+    <!-- Category name for SONGS [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for ARTISTS [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for ALBUMS [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for PLAYLISTS[CHAR LIMIT=20] -->
+    <string name="category_playlists">Playlists</string>
+
+
+    <!--Name for home screen-->
+    <string name="home_screen">
+        This is the home screen, in this place can be put controls
+        for playing a file(Now Playing) by using the MEDIAPLAYER API
+    </string>
+
+    <!--Name for songs screen-->
+    <string name="songs_screen">
+        This is the songs screen....\n
+        When you open this app a list of all your songs appears
+        If you select a song to play it uses MEDIAPLAYER API to be played
+    </string>
+
+    <!--Name for artists screen-->
+    <string name="artists_screen">
+        This is the artists screen....\n
+        Contains a ListView of Artists, and if you select an artist, songs of his will be shown.
+        That  could be done in same screen by using a  filter Class on songs)
+    </string>
+
+    <!--Name for albums screen-->
+    <string name="albums_screen">
+        This is the albums screen....\n
+        Contains a ListView of Album Covers that can be handled by using PICASSO or GLIDE LIBRARY
+        If you select an album a list of album songs will be displayed using a Filter Class, like the
+        artists activity.
+    </string>
+
+    <!--Name for playlists screen-->
+    <string name="playlists_screen">
+    This is the playlists screen....
+        Here when you open this screen a ListView of your  playlists appear  and can have a
+        new Class for creating new playlists.
+    </string>
+
+
+</resources>
